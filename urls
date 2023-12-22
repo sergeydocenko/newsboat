@@ -1,0 +1,162 @@
+# URLs for RSS feeds
+# Syntax:
+# https://feed.com/rss "News feed"
+
+# some sources
+# https://github.com/max-wn/dotfiles/blob/7fbc1d0f5b4dabe8a64f8902334bdbb44dab7e7a/newsboat/.config/newsboat/urls
+
+# "query:Starred Articles:flags # \"s\""
+"query:Unread Articles:unread = \"yes\""
+"query:[linux]:tags # \"linux\""
+"query:[reddit]:tags # \"reddit\""
+"query:[neovim]:tags # \"neovim\""
+"query:[technews]:tags # \"technews\""
+"query:[english]:tags # \"english\""
+"query:[dev]:tags # \"dev\""
+"query:[youtube]:tags # \"youtube\""
+"query:[astrotube]:tags # \"astrotube\""
+"query:[devtube]:tags # \"devtube\""
+"query:[politic]:tags # \"politic\""
+
+"query:[releases]:tags # \"releases\""
+"query:[media]:tags # \"films\""
+"query:[twitter]:tags # \"twitter\""
+"query:[telegramm]:tags # \"tg\""
+
+#http://www.yaplakal.com/news.xml
+#https://www.yaplakal.com/news.xml                           "~yaplakal"         humor
+https://dev.to/feed/tag/react                               "~dev.to/react"     dev react
+https://dev.to/feed/tag/neovim                              "~dev.to/neovim"    neovim
+https://dev.to/feed/tag/golang                              "~dev.to/golang"    dev golang
+
+https://www.reddit.com/r/tmux.rss                           "~r/tmux"           reddit linux
+https://www.reddit.com/r/bash/.rss                          "~r/bash"           reddit linux
+https://www.reddit.com/r/neovim.rss                         "~r/neovim"         reddit neovim
+https://www.reddit.com/r/vim_magic.rss                      "~r/vim_magic"      reddit neovim
+https://www.reddit.com/r/golang.rss                         "~r/golang"         reddit dev golang
+https://www.reddit.com/r/commandline.rss                    "~r/commandline"    reddit linux
+https://www.reddit.com/r/fishshell.rss                      "~r/fishshell"      reddit linux
+
+http://www.3dnews.ru/news/rss                               "~3dnews.ru"        technews
+http://www.ixbt.com/export/hardnews.rss                     "~ixbt.com"         technews
+https://itc.ua/ua/feed/                                     "~itc.ua"           technews
+https://www.overclockers.ua/ua/rss.xml                      "~overclockers.ua"  technews
+
+https://blogs.nasa.gov/rss                                  "~NASA Blogs Home"  science
+
+http://www.englishclub.com/ref/slang-of-the-day.xml         "!" "~Slang of the day"        english
+http://www.englishclub.com/ref/phrasal-verb-of-the-day.xml  "!" "~Phrasal verb of the day" english
+http://www.englishclub.com/ref/idiom-of-the-day.xml         "!" "~Idiom of the day"        english
+
+https://code.visualstudio.com/feed.xml                      "!" "~Visual Studio Code"   releases
+https://rsshub.app/firefox/release/desktop                  "!" "~Firefox"              releases
+https://love2d.org/releases.xml                             "!" "~love2d"               releases
+https://github.com/BurntSushi/ripgrep/releases.atom         "!" "~ripgrep"              releases
+https://github.com/alacritty/alacritty/releases.atom        "!" "~alacritty"            releases
+https://github.com/junegunn/fzf/releases.atom               "!" "~fzf"                  releases
+https://github.com/neovim/neovim/releases.atom              "!" "~nvim"                 releases
+https://github.com/tmux/tmux/releases.atom                  "!" "~tmux"                 releases
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCB9WOAf7gaCLiFnB2R46TIw "~[YT] Роман Цимбалюк"     youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkp0Tc7ll67bChomTyB1ezQ "~[YT] Om TV"              youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbH-3GF4hWQ8Ri1KjGR8kNQ "~[YT] Самый сок 2"        youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoD1pcjTPWhEBTf83SIqmcw "~[YT] Украина 365"        youtube politic                  
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmubOD8Nem4wYO7lqF1e0kw "~[YT] Курбанова LIVE"     youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgpSieplNxXxLXYAzJLLpng "~[YT] Майкл Наки"         youtube politic 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCH9H_b9oJtSHBovh94yB5HA "~[YT] Телеканал Прямий"   youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_nKsYiigmY9OskmITBXdBQ "~[YT] БАРМАЛЕЙКА"         youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8kI2B-UUv7A5u3AOUnHNMQ "~[YT] Александр Невзоров" youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnbuCp4py12SNWCc5TI1RHA "~[YT] Denis Kazanskyi"    youtube politic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsyTD0OauNSwUVqRy4rGwyQ "~[YT] MixNews"            youtube politic
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7c3Kb6jYCRj4JOHHZTxKsQ "~[YT] Github"                         youtube dev
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "~[YT] Freecodecamp"                   youtube dev
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSJbGtTlrDami-tDGPUV9-w "~[YT] Academind"                      youtube dev
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs_tLP3AiwYKwdUHpltJPuA "~[YT] GOTO Conferences"               youtube dev
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuERMmlnqo4oq8vwUpg "~[YT] The Net Ninja"                  youtube dev
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~[YT] Luke Smith"                     youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~[YT] Mental outlaw"                  youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "~[YT] ThePrimeagen"                   youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "~[YT] Brodie Robertson"               youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~[YT] DistroTube"                     youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA "~[YT] TJ DeVries"                     youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS97tchJDq17Qms3cux8wcA "~[YT] chris@machine"                  youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA "~[YT] Bryan Lunduke"                  youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX_WM2O-X96URC5n66G-hvw "~[YT] EF - Linux Made Simple"         youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "~[YT] gotbletu"                       youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-sAMvDe7gTmBbub-rWljZg "~[YT] ADV-IT"                         youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA "~[YT] LearnLinuxTV"                   youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "~[YT] Linus Tech Tips"                youtube linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCIHOP7e271SIumQgyl6XBQ "~[YT] OldTechBloke"                   youtube linux
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZb1iJo6LoM_oPJ_vM4J4_Q "~[YT] Fantomas"                       youtube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UChh4KdOL_b1D5oc3yJiaq6A "~[YT] VoicePower"                     youtube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCZBv-FBNdxoE87xae9eC6g "~[YT] Илон Маск"                      youtube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAqUo1nXYxgKguL0IZmo2uQ "~[YT] Мифы и реальность"              youtube science
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWr1SkrXD_TZZFlRqHDtU4w "~[YT] DS Astro"                       astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4WAsHhtleuEGKX9x_Kbd9w "~[YT] Неземной подкаст Сурдин"        astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUmeLZofGMhO5lVOHUEUU2A "~[YT] Улица Шкловского"               astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSUu1lih2RifWkKtDOJdsBA "~[YT] NASASpaceflight"                astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCm6afd4QMkQyoViRBai5nFQ "~[YT] Space Room"                     astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbhABwj6Ijp1dYG3Wo5Ek3Q "~[YT] Alpha Centauri"                 astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRS4nspnWmHYaMeLZt8VwLA "~[YT] Космический взрыв (Big Bang)"   astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0aikJ3-X18780JYUHFN5aw "~[YT] Злой аналитик вселенной"        astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOtPN8UoykTTNcVXaHxG2xw "~[YT] Космос просто Live"             astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0yEgH2COTqGKu1G59r6BZA "~[YT] Astro Channel"                  astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqS4ssaOkwxddeBZLo8zJ_Q "~[YT] Землякова"                      astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1cxx_JmN2grX-wlY4nAosg "~[YT] Spacehub"                       astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_5qysTCyTtX1w0I72-GdeQ "~[YT] Космическое путешествие"        astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQU4CouaES6l-t9Llqzzt1A "~[YT] Давайте Разбираться"            astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMhQgAaWNpDzViD1sy_3vfw "~[YT] The Big Beard Theory"           astrotube science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVbdR67RVvfS3vwOcyE-6ag "~[YT] Открытый космос Зеленого кота"  astrotube science
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCY38RvRIxYODO4penyxUwTg "~[YT] Dave Gray"                      devtube dev
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCprDa_LLciUHLoxtoJzPsbg "~[YT] The Weavers of Eternity"        youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-XS795Yi6Rqzew0rEgGDcg "~[YT] Paracord guild"                 youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4rnzGLwsvy2UDnKi2-V-OQ "~[YT] Paracord guild"                 youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJPUVhpTkE9MCH_3e5YavyA "~[YT] WhyKnot"                        youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqeJmKclnZayasrwvm6G21A "~[YT] Jason's Knot Channel"           youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxfS18VYnZgg2rrJgzuX98w "~[YT] Knotting Knots"                 youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFVJZgmXM6YE6yqZWg9nooQ "~[YT] Hand Knot Tips"                 youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVDUdoLZjGZQee74PqtFEvg "~[YT] The Rope Access Channel"        youtube knots
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuQYLUgUkv_IGLW2OFQVhSA "~[YT] FIRST CLASS AMATEUR"            youtube knots
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-SEO2ugu8rh7HWa4W6kYzQ "~[YT] InnerBark Outdoors"             youtube bushcraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX1ztT76CZfs29aGK9Nn7_A "~[YT] Corporals Corner"               youtube bushcraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfa-XVztQrDlf-2v1UUdkwg "~[YT] David Canterbury"               youtube bushcraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXSVZTsqJn5JjN0h5q5_B_Q "~[YT] Coalcracker Bushcraft"          youtube bushcraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSF08irENp73EwqJ42rCsIQ "~[YT] The Gray Bearded Green Beret"   youtube bushcraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8vR2Vt8ZtUc3_Sxdosk4eg "~[YT] Black Hat Bushcraft"            youtube bushcraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS4LBgyn1WLSojiQI4aPjtg "~[YT] Survival Lilly"                 youtube bushcraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCA7LqFpF_Zlty4Yg2iGJppw "~[YT] Reallybigmonkey1"               youtube bushcraft
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcBbiCpR-eBwL5l6H63lgfg "~[YT] Skyeng"                         youtube english
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHRAQhDPr9otgt8si7wWUlQ "~[YT] KIRILL'S ENGLISH"               youtube english
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKucg78eVWN8ud_6dF-9D5w "~[YT] Yuri The Professional"              youtube humor
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCnvz2rVBkQajGUiekDQ3Hg "~[YT] Yuri The Professional commenting"   youtube humor
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ-4K4911cLZMNEZLnxnpIg "~[YT] Lee Hardcastle"                     youtube humor
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPIKvg4P2pRDdmyN1gi9bnA "~[YT] MovieMaker"                     youtube movies
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4cPr-5sy0yHlbDB7isoXkg "~[YT] RocketMan"                      youtube movies
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbaKd4mhqd1QvfDp5EaUlHw "~[YT] GreenGrass"                     youtube movies
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfsgMi5B1fSZQ3jrDtlML7Q "~[YT] LANKARRA"                       youtube moto
+
+http://linux.org.ru/rss.jsp                     "~linux.org.ru"     linux
+https://www.zdnet.com/topic/linux/rss.xml       "~ZDNet (Linux)"    linux
+https://lukesmith.xyz/rss.xml                   "~Luke Smith"       linux
+https://linuxhint.com/feed/                     "~Linux Hint"       linux
+https://itsfoss.com/feed/                       "~It's FOSS"        linux
+https://distrowatch.com/news/news-headlines.xml "~Distro Watch"     linux
+https://www.linuxjournal.com/node/feed          "~Linux Journal"    linux
+
+https://www.paracordguild.com/feed/             "~Paracord guild" knots paracord
+
+https://ex-fs.net/films/rss.xml "~ex-fs.net"    films
+https://kinokrad.cc/rss.xml     "~kinokrad.cc"  films
+
+
