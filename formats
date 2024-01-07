@@ -1,0 +1,22 @@
+# Look and feel settings
+
+# Define the date format in the article list.
+datetime-format "%Y-%m-%d"
+
+feedlist-title-format "%t Feed(s), %u unread%?F?, matching filter '%F'?%?T?, tagged '%T'?"
+
+# feedlist-format
+#    %n: Feed name.
+#    %u: Unread count for the feed.
+#    %U: Total unread count across all feeds.
+#    %t: Title of the feed.
+#    %i: Index of the feed.
+#    %l: URL of the feed.
+#    %N: Number of articles in the feed.
+#    %T: Tags associated with the feed.
+#    %?: Conditional statement for custom formatting.
+#    %F: Flags associated with the feed.
+
+feedlist-format "%t %u %> %l"
+#feedlist-format "%u %20n"
+

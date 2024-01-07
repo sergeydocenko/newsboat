@@ -1,0 +1,13 @@
+# Colors and highlights
+
+color background         default   default
+color listnormal         default   default
+color listnormal_unread  default   default   bold
+color listfocus          black     yellow    bold
+color listfocus_unread   black     yellow    bold
+color info               default   black
+color article            default   default
+
+# highlights
+highlight article "^(Feed|Title|Link|Date|Author):.*$" color31 color0
+highlight article "https?://[^ ]+" color9 color0 protect
